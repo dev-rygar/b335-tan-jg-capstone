@@ -78,10 +78,14 @@ p {
     padding-bottom: 1rem;
 }
 
-#aboutme {
-    background-color: rgba(90, 90, 90, 0.8);
-}
 
 #formButton {
     box-shadow: none;
+}
+
+#me-profile {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 100%;
 }
