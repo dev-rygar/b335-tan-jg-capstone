@@ -5,9 +5,21 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+nav {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 #landing {
     position: relative;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +42,17 @@
     position: relative;
     z-index: 1;
     font-size: 5rem;
+    font-weight: 600;
 }
 
 #projects-headline{
 	font-weight: bold;
 	font-size: 3.5rem;
+}
+
+.sub-headlines {
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .card {
@@ -48,4 +66,22 @@
 
 .fix-p {
     padding-left: 6rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#aboutme h2 {
+    padding-bottom: 1rem;
+}
+
+#aboutme {
+    background-color: rgba(107, 156, 226, 0.8);
+}
+
+#formButton {
+    box-shadow: none;
 }
