@@ -61,7 +61,9 @@ nav {
 
 .my-card {
     width: 100%; 
-    max-width: 123px; 
+    max-width: 123px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .fix-p {
