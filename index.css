@@ -89,3 +89,7 @@ p {
     object-fit: cover;
     border-radius: 100%;
 }
+
+#aboutme {
+    background-color: whitesmoke;
+}
