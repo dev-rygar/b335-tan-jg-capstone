@@ -1,0 +1,51 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#landing {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing .background-image {
+    background-image: url("images/landing.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(4px);
+    z-index: -1;
+}
+
+#landing h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 5rem;
+}
+
+#projects-headline{
+	font-weight: bold;
+	font-size: 3.5rem;
+}
+
+.card {
+    border: none !important;
+}
+
+.my-card {
+    width: 100%; 
+    max-width: 123px; 
+}
+
+.fix-p {
+    padding-left: 6rem;
+}
